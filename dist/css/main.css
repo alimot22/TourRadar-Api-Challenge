@@ -1,0 +1,70 @@
+@import url("blur.css");
+
+/* Start defaults =============================== */
+body{
+  background: #eee;
+  font-family: sans-serif;
+}
+.TextGray{
+  color:#888;
+}
+.no-padding{
+  padding:0 !important;
+}
+.no-margin{
+  margin:0 !important;
+}
+
+.box{
+  background: #fff;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.05);
+  width: 100%;
+  margin: 15px;
+}
+
+/* End of defaults ================================================== */
+
+.sale-line{
+  background: #41c4ab;
+  padding: 10px;
+  color:#fff;
+}
+  .SortRow label{
+      margin-right: 10px;
+  }
+  .SortRow .form-control{
+    display: inline-block;
+    width: 12em;
+  }
+
+#tourList .box img{
+  width:100%;
+}
+#tourList .box h2{
+  font-size: 1.6rem;
+}
+#tourList .box h4{
+  font-size: 1rem;
+}
+  #tourList .box ul{
+    list-style: none;
+  }
+    #tourList .box ul li label {
+      color:#aaa;
+      font-size: 0.6rem;
+      font-weight: normal;
+      margin-right: 5px;
+      margin-bottom: 0;
+    }
+    #tourList .box ul li span{
+      font-size: 0.7rem;
+      font-weight: normal;
+    }
+  #tourList .days{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+  }
